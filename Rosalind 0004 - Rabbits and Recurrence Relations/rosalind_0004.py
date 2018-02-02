@@ -2,14 +2,16 @@
 # Calculate n'th values in recurrence sequences
 # Created 2.1.2018 by CB Fay
 
-N = int(input("n: "))
-K = int(input("k: "))
+file = open("rosalind_fib.txt").read().split(" ")
 
-def rabbits(n, k):
+N = int(file[0])
+K = int(file[1])
+
+def rabbits2(n, k):
     a = 0
     b = 1
     for i in range(n):
         a, b = b, b + (a * k)
     return a
 
-print(rabbits(N, K))
+print(rabbits2(N, K))
