@@ -11,4 +11,6 @@ Return: The Hamming distance dH(s,t).
 GAGCCTACTAACGGGAT  
 CATCGTAATGACGGCCT
 ## Sample Output
-7
+7  
+
+http://rosalind.info/problems/hamm/
