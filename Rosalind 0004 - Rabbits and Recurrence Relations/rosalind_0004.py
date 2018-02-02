@@ -1,17 +1,19 @@
 # http://rosalind.info/problems/fib/
 # Calculate n'th values in recurrence sequences
-# Created 2.1.2018 by CB Fay
+# Created 2.2.2018 by CB Fay
 
-file = open("rosalind_fib.txt").read().split(" ")
+file = open("rosalind_fib.txt")
+text = file.read().split(" ")
+file.close()
 
-N = int(file[0])
-K = int(file[1])
+N = int(text[0])
+K = int(text[1])
 
-def rabbits2(n, k):
-    a = 0
-    b = 1
+def population(n, k):
+    m = 0 # mating
+    p = 1 # pairs
     for i in range(n):
-        a, b = b, b + (a * k)
-    return a
+        m, p = p, p+(m*k)
+    return m
 
-print(rabbits2(N, K))
+print(population(N, K))
