@@ -3,7 +3,7 @@ import json
 def main():
     """Create a json file representing the RNA Codon Table."""
     with open('rna_codon_table.json', 'w') as file:
-        json.dump(RNA_CODON_TABLE, file)
+        json.dump(RNA_CODON_TABLE, file, indent=4)
 
 RNA_CODON_TABLE = {
     'UUU' : 'F',
