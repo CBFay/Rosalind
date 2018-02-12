@@ -23,3 +23,5 @@ Detailed installation instructions for BioPython are available in PDF and HTML f
 BioPython offers a specific data structure called Seq for representing sequences. Seq represents an extension of the "str" (string) object type that is built into Python by supporting additional biologically relevant methods like translate() and reverse_complement().
 
 In this problem, you can easily use the built-in Python method .count() for strings. Here's how you could count the occurrences of 'A' found in a Seq object.
+
+http://rosalind.info/problems/ini/
