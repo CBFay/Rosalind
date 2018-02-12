@@ -13,8 +13,9 @@ Return: Four integers (separated by spaces) representing the respective number o
 ## Sample Dataset
 AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 ## Sample Output
-20 12 17 21
-Programming Shortcutclick to collapse
+20 12 17 21  
+
+### Programming Shortcut
 Our default choice for existing functions and modules to analyze biological data is BioPython, a set of freely available tools for computational biology that are written in Python. We will give you tips on how to solve certain problems (like this one) using BioPython functions and methods.
 
 Detailed installation instructions for BioPython are available in PDF and HTML formats.
